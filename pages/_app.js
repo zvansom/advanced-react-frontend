@@ -11,6 +11,7 @@ class MyApp extends App {
     }
     // This exposes the query to the user
     pageProps.query = ctx.query;
+    return { pageProps };
   }
   render() {
     const { Component, apollo, pageProps } = this.props;
