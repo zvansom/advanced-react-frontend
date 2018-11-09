@@ -39,7 +39,6 @@ const Cart = () => (
           <header>
             <CloseButton title="close" onClick={toggleCart}>&times;</CloseButton>
             <Supreme>{me.name}'s Cart</Supreme>
-            <p>Test commit</p>
             <p>You have {me.cart.length} Item{me.cart.length === 1 ? '' : 's'} in your cart.</p>
           </header>
           <ul>
